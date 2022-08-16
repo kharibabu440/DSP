@@ -1,4 +1,3 @@
-
 import folium
 way1=[[16.787825445160966, 80.8500965046571],[16.786538231198872, 80.85581067823016],[16.785894620946404, 80.85984421251703],[16.774952913043663, 80.88001188395135],
       [16.76368873223945, 80.88740669681061],[16.7482396281332, 80.89547376538435],[16.7334330602678, 80.90320470610084],[16.726673157602125, 80.91564143681867],
@@ -29,9 +28,14 @@ f1.add_to(map)
 f2.add_to(map)
 folium.Marker(location=[16.780001,80.849998],popup='Starting point',tooltip='NUZVIDU').add_to(map)
 folium.Marker(location=[16.576928336422398, 82.00167060152096],popup='<strong>Destination</strong>',tooltip='AMALAPURAM').add_to(map)
+folium.Marker(location=[16.674388547811592, 80.94278830364426],popup='<strong>Jawahar Navodaya Vidyalaya</strong>',tooltip='<strong>Click here to see Popup</strong>',icon=folium.Icon(color='blue',prefix='fa',icon='fa-mortar-board')).add_to(map)
+folium.Marker(location=[16.685734228528244, 81.02569665024977],popup='<strong>Sri Vidyalaya Junior College</strong>',tooltip='<strong>Click here to see Popup</strong>',icon=folium.Icon(color='red',prefix='fa',icon='fa-mortar-board')).add_to(map)
+folium.Marker(location=[16.721125272386008, 81.04789692927922],popup='<strong>Eluru College Of Engineering</strong>',tooltip='<strong>Click here to see Popup</strong>',icon=folium.Icon(color='green',prefix='fa',icon='fa-mortar-board')).add_to(map)
+folium.Marker(location=[16.74187052693073, 81.11298962881499],popup='<strong>Bharat Petroleum, Petrol Pump -Sri Mallikharjuna Service Station</strong>',tooltip='<strong>Click here to see Popup</strong>',icon=folium.Icon(color='orange',prefix='fa',icon='fa-car')).add_to(map)
+folium.Marker(location=[16.84004676591213, 81.5370198142466],popup='<strong>NATIONAL INSTITUTE OF TECHNOLOGY ANDHRA PRADESH</strong>',tooltip='<strong>Click here to see Popup</strong>',icon=folium.Icon(color='red',prefix='fa',icon='fa-mortar-board')).add_to(map)
+folium.Marker(location=[16.755524198655614, 81.68660514086231],popup='<strong>NATIONAL INSTITUTE OF TECHNOLOGY ANDHRA PRADESH</strong>',tooltip='<strong>Click here to see Popup</strong>',icon=folium.Icon(color='pink',prefix='fa',icon='fa-shopping-cart')).add_to(map)
+folium.Marker(location=[16.57376496700751, 81.22902754525704],popup='<strong>Kolleru Lake</strong>',tooltip='<strong>Click here to see Popup</strong>',icon=folium.Icon(color='green',prefix='fa',icon='fa-tree')).add_to(map)
+folium.Marker(location=[16.56321968594316, 81.97942674650022],popup='<strong>BVC INSTITUTE OF TECHNOLOGY & SCIENCES (B.V.C.I.T.S )</strong>',tooltip='<strong>Click here to see Popup</strong>',icon=folium.Icon(color='black',prefix='fa',icon='fa-mortar-board')).add_to(map)
+
 folium.LayerControl().add_to(map)
 map
-
-
-
-
